@@ -2,9 +2,7 @@ const pages = require('gh-pages');
 
 function main() {
   return new Promise((resolve, reject) => {
-    pages.publish('public', {
-      dest: 'blog'
-    }, err => {
+    pages.publish('public', {}, err => {
       if (err) {
         return reject(err);
       }

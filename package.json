@@ -6,7 +6,7 @@
   "dependencies": {
     "gatsby": "next",
     "gatsby-plugin-manifest": "next",
-    "gatsby-plugin-offline": "^1.0.18",
+    "gatsby-plugin-offline": "^2.0.0-rc.4",
     "gatsby-plugin-react-helmet": "next",
     "gh-pages": "^1.2.0",
     "react": "^16.4.2",
